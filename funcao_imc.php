@@ -16,13 +16,13 @@ $massa = $peso / $altura;
 $massa = round($massa);
 if($massa < 20) {
 $mensagem = "Você está magro.";
-"<img src='imagens/gorda.jpg'>"."<br>";
+"<img src='gorda.jpg'>"."<br>";
 }elseif(($massa > 20) and ($massa < 25)) {
 $mesagem = "Você está no peso ideal.";
-echo "<img src='imagens/saudavel.jpg'/>"."<br>";
+echo "<img src='saudavel.jpg'/>"."<br>";
 }else{
 $mesagem = "Você está acima do peso.";
-echo "<img src='imagens/gorda.jpg'>"."<br>";
+echo "<img src='gorda.jpg'>"."<br>";
 }
 
 echo "$nome, Sua massa corporal é: <b>$massa</b> <br>";
